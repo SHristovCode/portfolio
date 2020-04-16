@@ -1,0 +1,59 @@
+@import '../../scss_variables/mixins.scss';
+@import '../../scss_variables/colors.scss';
+@import '../../scss_variables/fonts.scss';
+
+.skills {
+    width: 70%;
+    margin: 0 auto;
+    padding: 5rem 0;
+    height: auto;
+    text-align: center;
+
+    @include tablet {
+        width: 90%;
+    }
+
+    @include mobile {
+        width: 100%;
+        padding: 3rem 0.5rem;
+    }
+
+
+
+    & h2 {
+        font-size: $size_headline_big;
+        color: $color_headline;
+
+        @include mobile {
+           font-size: $size_headline_medium;
+        }
+    }
+
+    & .skills-content {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+
+        @include mobile {
+            padding: 0 2%;
+        }
+
+
+        & .skill {
+            padding: 15px 30px;
+            background-color: $background_accent;
+            color: $color_primary;
+            font-size: $size_text_big;
+            border-radius: 10px;
+            margin: 10px;
+
+            @include mobile {
+                font-size: $size_text_medium;
+                flex: 2;
+            }
+        }
+    }
+}
