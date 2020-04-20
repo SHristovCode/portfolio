@@ -29,7 +29,7 @@ const Home = () => {
             </div>
             <div className="paralax-container">
                 <h2>Experience</h2>
-                <p>In my last 2 years, I was working with React and React Native. My role was Junior front end developer. I had the chance to work on two bank mobile applications gave me experience with React Native. I had to talk with clients, to estimate my tasks and to take decisions for the libraries that I'm using. Most of all I was working on responsive websites and that gave me the ability to make reusable components and to make my styles responsive.</p>
+                <p>In my last 2 years, I was working with React and React Native. My role was Junior front end developer. I had the chance to work on two bank mobile applications which gave me experience with React Native. I had to talk with clients, to estimate my tasks and to take decisions for the libraries that I'm using. Most of all I was working on responsive websites and that gave me the ability to make reusable components and to make my styles responsive.</p>
             </div>
             <Skills skills={skills} />
             <SliderTextImgSection />
