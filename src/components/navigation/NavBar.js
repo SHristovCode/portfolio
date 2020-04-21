@@ -1,5 +1,6 @@
 import React from 'react';
-import { NavLink } from 'react-router-dom';
+import Pdf from '../../../public/assets/SvilenHristovResume.pdf';
+import { NavLink, Link } from 'react-router-dom';
 
 import './NavBar.scss';
 
@@ -14,6 +15,9 @@ const NavBar = () => {
                     </li>
                     <li>
                         <NavLink to="/contact">Contact</NavLink>
+                    </li>
+                    <li>
+                        <a href={Pdf}>CV</a>
                     </li>
                 </ul>
             </div>
